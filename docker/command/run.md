@@ -48,7 +48,9 @@ docker run -d -p 56379:6379 hub.c.163.com/library/redis:latest
 docker run -d -p 56379:6379 -v /Users/dongbin/redis/backup:/data hub.c.163.com/library/redis:latest
 ```
 
-使用镜像**hub.c.163.com/library/redis:latest**以交互模式启动一个容器，在容器内执行/bin/bash
+使用镜像**hub.c.163.com/library/redis:latest**以交互模式启动一个容器，在容器内执行/bin/bash (进入容器里可以执行命令，容器退出时，当前容器停止)
 
-
+```properties
+docker run -it hub.c.163.com/library/redis:latest /bin/bash
+```
 
