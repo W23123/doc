@@ -1,9 +1,11 @@
 
 
-#### Docker run 命令
+###### Docker run/create 命令
 
-```properties
-docker run [options] image [command] [arg...]
+```shell
+docker run/create [options] image [command] [arg...]
+
+#create和run的区别是：create只创建容器不运行，run创建出容器并运行
 ```
 
 ###### options说明
